@@ -22,15 +22,15 @@ en: &DEFAULT_EN
     section: services
     list:
       - title: "C++"
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+       # icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
       - title: "C#"
-        icon: fas fa-laptop
+       
       - title: "Git"
-        icon: fab fa-git-alt
+        
       - title: "SDL2"
-        icon: fas fa-laptop
+       
       - title: "Unity"
-        image: assets/icons/unity-50.png
+        
 
 
   portfolio:
