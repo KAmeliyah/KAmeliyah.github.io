@@ -30,7 +30,7 @@ en: &DEFAULT_EN
       - title: "SDL2"
         icon: fas fa-laptop
       - title: "Unity"
-        icon: fa-brands fa-unity
+        icon: <i class="fa-brands fa-unity"></i>
 
 
   portfolio:
