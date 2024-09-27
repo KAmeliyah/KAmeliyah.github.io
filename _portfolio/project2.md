@@ -12,6 +12,7 @@ caption:
 Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
 
 {:.list-inline}
+- Gameplay Programmer
 - Date: 2024
 - Team Size: 5
 - Unity & C#
