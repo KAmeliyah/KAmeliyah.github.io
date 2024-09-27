@@ -10,7 +10,7 @@ caption:
   thumbnail: assets/img/portfolio/breakout-gp.gif
 ---
 
-#Introduction
+<h1> Introduction </h1>
 <!--
 - Made space invaders for assignment - wanted to explore more SDL
 - Chose another Classic Arcade Game to become more accustomed to the library
