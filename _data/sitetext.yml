@@ -23,12 +23,15 @@ en: &DEFAULT_EN
     list:
       - title: "C++"
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "C#"
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
+      - title: "Git"
         icon: fab fa-markdown
+      - title: "SDL2"
+        icon: fas fa-laptop
+      - title: "Unity"
+        icon: fa-brands fa-unity
+
 
   portfolio:
     title: "Portfolio"
