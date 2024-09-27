@@ -22,23 +22,16 @@ en: &DEFAULT_EN
     section: services
     list:
       - title: "C++"
-       # icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
       - title: "C#"
-       
       - title: "Git"
-        
       - title: "SDL2"
-       
       - title: "Unity"
-        
-
 
   portfolio:
     title: "Portfolio"
     text: "The work I have done."
     section: portfolio
     closebutton: "Close Project"
-
 
   about:
     title: "About Us"
@@ -62,7 +55,6 @@ en: &DEFAULT_EN
     submit: "Send Message"
 
   footer:
-    legal: "Privacy Policy"
     social:
       - url: https://twitter.com
         icon: "fab fa-twitter"
@@ -97,12 +89,8 @@ es: &DEFAULT_ES
     text: "Lorem ipsum"
     section: servicios
     list:
-      - title: "Comercio Electrónico"
-        
-        
+      - title: "Comercio Electrónico" 
       - title: "Diseño Responsivo"
-        
-       
       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
         
 
