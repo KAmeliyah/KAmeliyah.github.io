@@ -1,18 +1,18 @@
 ---
-title: Project Threads
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
+title: Brick Breaker
+subtitle: SDL2 + C++ Breakout Clone.
+image: assets/img/portfolio/breakout-gp.gif
+alt: Ball bounces off paddle and hits block
 
 caption:
-  title: Threads
-  subtitle: Illustration
-  thumbnail: assets/img/portfolio/01-thumbnail.jpg
+  title: Birck Breaker
+  subtitle: SDL2 & C++
+  thumbnail: assets/img/portfolio/breakout-gp.gif
 ---
 Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 
 {:.list-inline}
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
+- Date: 2024
+- Team Size: Threads
+- : Illustration
 
