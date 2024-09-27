@@ -30,12 +30,12 @@ en: &DEFAULT_EN
       - title: "SDL2"
         icon: fas fa-laptop
       - title: "Unity"
-        icon: assets/icons/unity-50.png
+        image: assets/icons/unity-50.png
 
 
   portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "The work I have done."
     section: portfolio
     closebutton: "Close Project"
 
