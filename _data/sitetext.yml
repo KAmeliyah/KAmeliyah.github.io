@@ -39,7 +39,7 @@ en: &DEFAULT_EN
     section: about
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     
-
+    
   contact:
     title: "Contact Us"
     text: "Lorem ipsum or call 123456789"
