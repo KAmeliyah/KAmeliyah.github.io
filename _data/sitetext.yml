@@ -11,15 +11,15 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: Game Programmer
+    text: Khadijah Ameliyah
     button: Tell Me More
-    buttonlink: "#services"
+    buttonlink: "#skills"
 
   skills:
     title: "Skills"
     text: "Lorem ipsum"
-    section: services
+    section: skills
     list:
       - title: "E-Commerce"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
@@ -175,7 +175,7 @@ es: &DEFAULT_ES
     button: Ver más
     buttonlink: "#servicios"
 
-  services:
+  skills:
     title: "Servicios"
     text: "Lorem ipsum"
     section: servicios
