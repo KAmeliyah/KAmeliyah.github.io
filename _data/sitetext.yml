@@ -26,11 +26,11 @@ en: &DEFAULT_EN
       - title: "C#"
         icon: fas fa-laptop
       - title: "Git"
-        icon: fab fa-markdown
+        icon: fa-brands fa-git-alt
       - title: "SDL2"
         icon: fas fa-laptop
       - title: "Unity"
-        icon: <i class="fa-brands fa-unity"></i>
+        icon: fa-brands fa-unity
 
 
   portfolio:
