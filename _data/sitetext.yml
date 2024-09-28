@@ -17,7 +17,7 @@ en: &DEFAULT_EN
     buttonlink: "#services"
 
   services:
-    title: "Skills"
+    title: "Technical Skills"
     text: "The tools I use to develop"
     section: services
     list:
@@ -37,7 +37,10 @@ en: &DEFAULT_EN
     title: "About Me"
     text: "My Story"
     section: about
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    body: "Hi, I'm Khadijah. I'm a 2nd year Game Software Engineering student at Bournemouth University.
+           My intrinsic drive to create and my love for video games is why I am committed to challening myself.
+           Every day, I strive to learn new skills that make me a more efficient and innovative programmer. 
+           At my core, I am a problem solver. I believe experimentation is my greatest tool for finding the best solutions that I can."
     
 
   contact:
