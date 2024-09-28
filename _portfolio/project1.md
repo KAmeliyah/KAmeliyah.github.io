@@ -26,15 +26,19 @@ To parse the text file into a playable level, I've written a function that reads
 <img src = "assets/img/portfolio/level-init-code.png" alt = "C++ code function">
 
 ### 2D Physics
-An important part of brick breaker games is how the ball's collisions can be used to strategise towards breaking blocks as the player wants. So I was committed to writing code to replicate accurate physics for the ball as I learned in my Mathematics for Computer Graphics class at university. I wrote a Vec2D class so that I had 2D vectors to work with for both position and movement. Using the position vector and the x-coordinate of the point of collision, I wrote a function to calculate the movement vector of the ball after it collides with a brick or the paddle.
+An important part of brick breaker games is how the ball's collisions can be used to strategise towards breaking blocks as the player wants. So I was committed to writing code to replicate accurate physics for the ball as I learned in my Mathematics for Computer Graphics class at university. I wrote a Vec2D class so that I had 2D vectors to work with for both position and movement. Using the position vector and the x-coordinate of the point of collision, I wrote a function to calculate the movement vector of the ball after it collides with a brick or the paddle. I based it on specular reflection to achieve natural ball movement.
 
 <img src = "assets/img/portfolio/ball-collision-code.png" alt = "C++ code function"> 
 
-Border collision were a lot more simple
+Border collisions were a lot more simple
 
 <img src = "assets/img/portfolio/border-collision-code.png" alt = "C++ code function"> 
 
 ### What I Learned
+As I went through this project, I realised I would need to refactor how I applied what I knew about physics. While my prior knowledge was extremely helpful, it also led to some incorrect conclusions earlier in the project. After some research and continued testing of new solutions, I was able to find a method of calculating collisions that worked.
+
+I learned more about file reading in c++ and the performance profiler in visual studio
+
 
 
 {:.list-inline}
