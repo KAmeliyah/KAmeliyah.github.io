@@ -9,6 +9,9 @@ caption:
   subtitle: BU Code Jam 2024 - Ferocious Fruits
   thumbnail: assets/img/portfolio/02-thumbnail.jpg
 ---
+### Accolades
+*** Most Visually Appealing ***
+
 ### Introduction
 For this Code Jam, our prompt was given by Bournemouth University's Sustainability team to develop a prototype of an "interactive experience" that the team could be used for people to play with to explore making the buildings on campus net zero on energy consumption. Since our team was made up of a majority of Creative Technology students, we felt it would be best to make a game. We came up with the idea of a take on a Real-Time-Strategy game where the player takes control of the uni's budget for a year.
 
@@ -24,6 +27,12 @@ Utilising Unity's built-in UI objects, I designed and implemented a simple colla
 We had less time for this project than I did when I did the Game Jam, so even with a larger team of programmers, we felt the pressure. We made sure that we agreed on a coding standard between us as soon as possible to prevent confusion down the line since we all paid attention to writing clean code. 
 
 Our primary issue was with the version control. We were using Git and would keep running into merge issues when multiple developers would make changes to the main scene. As a result of this, we all learned how to resolve merge issues as they came up and learned to communicate clearly and frequently to prevent conflicts from occuring in the first place.
+
+### Team Members
+- Scott Lewis
+- Kyle
+- Chris
+- Michael
 
 {:.list-inline}
 - Date: February 2024
