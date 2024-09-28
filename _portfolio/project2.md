@@ -15,14 +15,18 @@ For this Code Jam, our prompt was given by Bournemouth University's Sustainabili
 My contributions are focused on the non-diegetic in-game shop.
 
 ### Scriptable Objects
-Since the shop contains multiple items that have similar components, I decided it would be best to use Unity's Scriptable Objects \[SO]. Since each building has it's own shop, SOs made it easy to swap different upgrades in and out as necessary. This method also saved on memory consumption as SOs don't need to be instantiated the way that Monobehaviours do.
+Since the shop contains multiple items that have similar components, I decided it would be best to use Unity's Scriptable Objects \[SOs]. Since each building has it's own shop, SOs made it easy for me to swap different upgrades in and out as required. I wrote the ShopItemSO script that detailed the data each upgrade would include. This method also saved on memory consumption as SOs don't need to be instantiated the way that Monobehaviours do.
 
 ### UI Programming
+Utilising Unity's built-in UI objects, I designed and implemented a simple collapsible shop that overlayed onto the game. Each upgrade in the shop had a button that when pressed would take money from the player's budget and would have an impact on their other stats. I wrote scripts that would implement this. The effect was determined by the data I plugged into the Scriptable Objects that I made.
 
 ### What I learned
+We had less time for this project than I did when I did the Game Jam, so even with a larger team of programmers, we felt the pressure. We made sure that we agreed on a coding standard between us as soon as possible to prevent confusion down the line since we all paid attention to writing clean code. 
+
+Our primary issue was with the version control. We were using Git and would keep running into merge issues when multiple developers would make changes to the main scene. As a result of this, we all learned how to resolve merge issues as they came up and learned to communicate clearly and frequently to prevent conflicts from occuring in the first place.
 
 {:.list-inline}
-- Date: 2024
+- Date: February 2024
 - Team Size: 5
 - Unity & C#
 - Time Span: 4 Days
