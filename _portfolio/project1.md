@@ -26,7 +26,13 @@ To parse the text file into a playable level, I've written a function that reads
 <img src = "assets/img/portfolio/level-init-code.png" alt = "C++ code function">
 
 ### 2D Physics
+An important part of brick breaker games is how the ball's collisions can be used to strategise towards breaking blocks as the player wants. So I was committed to writing code to replicate accurate physics for the ball as I learned in my Mathematics for Computer Graphics class at university. I wrote a Vec2D class so that I had 2D vectors to work with for both position and movement. Using the position vector and the x-coordinate of the point of collision, I wrote a function to calculate the movement vector of the ball after it collides with a brick or the paddle.
 
+<img src = "assets/img/portfolio/ball-collision-code.png" alt = "C++ code function"> 
+
+Border collision were a lot more simple
+
+<img src = "assets/img/portfolio/border-collision-code.png" alt = "C++ code function"> 
 
 ### What I Learned
 
