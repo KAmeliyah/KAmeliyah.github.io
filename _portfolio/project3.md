@@ -16,5 +16,5 @@ Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur 
 - Date: January 2024
 - Team Size: 4
 - Unity & C#
-- Time Span: 1 Week
+- Time Span: 5 Days
 
