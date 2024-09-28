@@ -1,6 +1,6 @@
 ---
 title: Locked & Loaded
-subtitle: Unity & C#.
+subtitle: Gameplay Programmer
 image: assets/img/portfolio/locked-loaded-gp.gif
 alt: Character runs from left to right towards a door 
 
@@ -9,10 +9,20 @@ caption:
   subtitle: BU Game Jam 2024 - Blue Shells
   thumbnail: assets/img/portfolio/locked-loaded-gp.gif
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+### Introduction
+This was my first ever game jam. I had heard of them before and seen what others had done during theirs so I was excited to join one for myself. It was also the first time I'd worked in a multi-disciplined team of artists, designers and programmers which was fun for me.
+
+Our prompt was "                    ". So our team, Blue Shells, chose to make a puzzle game with combat elements. The goal was to escape from a dungeon by solving a puzzle and then beating an enemy. I'll highlight my contributions to the project in the following sections.
+
+### Character Movement
+
+### Combat Mechanics
+
+### Scene Management
+
 
 {:.list-inline}
-- Gameplay Programmer
+
 - Date: January 2024
 - Team Size: 4
 - Unity & C#
