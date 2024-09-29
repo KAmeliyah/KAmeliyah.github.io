@@ -26,7 +26,7 @@ A boss before gaining freedom was a story beat we wanted to hit. So, we came up 
 
 For drawing player cards, I wrote a function that randomly select a card to draw.
 
-<img src = "assets/img/portfolio/draw-code.png">
+<img src = "assets/img/portfolio/draw-code.png" class = "center">
 
 I think if I were to come back to this project, I would write a function to shuffle the deck instead to **compare the performance** of the two randomisation methods.
 
@@ -37,10 +37,14 @@ I wrote an audio manager script to play sound clips whenever there was a success
 ### Scene Management and Transitions
 Locked & Loaded has multiple scenes so I added fade outs to make the transitions smoother. I had never worked on transitions before but I found this <a href = "https://www.youtube.com/watch?v=Ox0JCbVIMCQ"> tutorial</a> helped me do it. 
 
-<img src = "assets/img/portfolio/" >
+<img src = "assets/img/portfolio/transition-fade.gif" >
 
+On evaluation, I noticed that the fade in isn't as smooth as the fade out. Next time I implement scene transitions, I want to make use of Unity's animator. That would save me time and make it easier for me to configure the transition to how I wanted it.
 
+### What I learned
+The biggest lesson I learned was about time management. We had to cut out a lot of what we originally planned to include because there was no time for us to make it fit. Identifying essential features and implementing them quickly became the priority as time dwindled and I think we managed those concessions well. 
 
+Despite the pressures of the jam, I really enjoyed developing alongside the rest of the team and I am really grateful that I got the opportunity to work with such talented people.
 
 ### Other Team Members
 - <a href = "https://gisellepe.com/"> Giselle Pe</a> - Static assets & tiles, Environmental design, UI design
