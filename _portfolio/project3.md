@@ -10,7 +10,7 @@ caption:
   thumbnail: assets/img/portfolio/locked-loaded-gp.gif
 ---
 ### Accolades
-**3rd Overall**
+**3rd Overall**  
 **Best 2D Art**
 
 ### Introduction
