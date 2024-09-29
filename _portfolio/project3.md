@@ -26,14 +26,20 @@ A boss before gaining freedom was a story beat we wanted to hit. So, we came up 
 
 For drawing player cards, I wrote a function that randomly select a card to draw.
 
-<img src = "assets/img/portfolio/level-text.png">
+<img src = "assets/img/portfolio/draw-code.png">
 
 I think if I were to come back to this project, I would write a function to shuffle the deck instead to **compare the performance** of the two randomisation methods.
 
-I wrote an audio manager script to play sound clips whenever there was a successful hit.
+I wrote an audio manager script to play sound clips whenever there was a successful hit. The manager is a static instance that can be used through the entire game if needed. 
+
+<img src = "assets/img/portfolio/sound-locked-loaded.png">
+
+### Scene Management and Transitions
+Locked & Loaded has multiple scenes so I added fade outs to make the transitions smoother. I had never worked on transitions before but I found this <a href = "https://www.youtube.com/watch?v=Ox0JCbVIMCQ"> tutorial</a> helped me do it. 
+
+<img src = "assets/img/portfolio/" >
 
 
-### Scene Management
 
 
 ### Other Team Members
