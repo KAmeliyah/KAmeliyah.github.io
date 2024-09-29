@@ -26,7 +26,7 @@ An important part of brick breaker games is how the ball's collisions can be use
 ### What I Learned
 As I went through this project, I realised I would need to refactor how I applied what I knew about physics. While my prior knowledge was extremely helpful, it also led to some incorrect conclusions earlier in the project. After some<a href = "https://www.reddit.com/r/gamedev/comments/5qcgu9/comment/dcy5r5q/"> research</a> and continued testing of new solutions, I was able to find a method of calculating collisions that worked.
 
-Another lesson I learned is that the profiler and other diagnostic tools in Visual Studio help hugely. With them, I was able to properly understand how my game was performing in terms of CPU and memory usage. This was especially helpful at the beginning of the project where I accidentally was making hundreds of Ball objects without realising, causing a severe performance drop. 
+Another lesson I learned is that the profiler and other diagnostic tools in Visual Studio help hugely. With them, I was able to properly understand how my game was performing in terms of CPU and memory usage. This was especially helpful at the beginning of the project, where many Ball objects were being created, causing a severe performance drop. 
 
 {:.list-inline}
 - Date: June 2024
