@@ -21,8 +21,12 @@ Our prompt was "Combination". Our team, Blue Shells, chose to make a puzzle game
 ### Character Movement
 As a base starting point, we wanted player controlled movement to immerse the player into the escape storyline. I was responsible for coding the movement and making sure player actions synced up with the animations Oyku drew. I scripted the 2D physics so that the character would interact correctly with the level tiles. To check for ground when the character would jump, I used a layer mask and Physics2D boxcast to check for collisions. I felt it worked really well and I moved forward with the solution.
 
+<img src = "assets/img/portfolio/ll-end.gif">
+
 ### Combat Mechanics
 A boss before gaining freedom was a story beat we wanted to hit. So, we came up with a rock, paper, scissors style system using cards. The player and enemy can play a card each and whoever wins, deals damage.
+
+<img src = "assets/img/portfolio/ll-combat.gif">
 
 For drawing player cards, I wrote a function that randomly select a card to draw. I think if I were to come back to this project, I would write a function to shuffle the deck instead to **compare the performance** of the two randomisation methods.
 
