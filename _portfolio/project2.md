@@ -1,13 +1,13 @@
 ---
 title: University Resource Manager
 subtitle: UI / Gameplay Programmer
-image: assets/img/portfolio/02-full.jpg
+image: assets/img/portfolio/uni-game-intro.gif
 alt: Unity Recreation of Bournemouth University
 
 caption:
   title: University Resource Manager
   subtitle: BU Code Jam 2024 - Ferocious Fruits
-  thumbnail: assets/img/portfolio/02-thumbnail.jpg
+  thumbnail: assets/img/portfolio/uni-game-intro.gif
 ---
 ### Accolades
 **Most Visually Appealing**
@@ -17,11 +17,15 @@ For this Code Jam, our prompt was given by Bournemouth University's Sustainabili
 
 My contributions are focused on the non-diegetic in-game shop.
 
+### UI Programming
+Utilising Unity's built-in UI objects, I designed and implemented a simple collapsible shop that overlayed onto the game. Each upgrade in the shop had a button that when pressed would take money from the player's budget and would have an impact on their other stats. I wrote scripts that would implement this. The effect was determined by the data I plugged into the Scriptable Objects that I made.
+
+<img src = assets/img/portfolio/shop-in-use.gif>
+
 ### Scriptable Objects
 Since the shop contains multiple items that have similar components, I decided it would be best to use Unity's Scriptable Objects \[SOs]. Since each building has it's own shop, SOs made it easy for me to swap different upgrades in and out as required. I wrote the ShopItemSO script that detailed the data each upgrade would include. This method also saved on memory consumption as SOs don't need to be instantiated the way that Monobehaviours do.
 
-### UI Programming
-Utilising Unity's built-in UI objects, I designed and implemented a simple collapsible shop that overlayed onto the game. Each upgrade in the shop had a button that when pressed would take money from the player's budget and would have an impact on their other stats. I wrote scripts that would implement this. The effect was determined by the data I plugged into the Scriptable Objects that I made.
+<img src = assets/img/portfolio/so-shop.gif>
 
 ### What I learned
 We had less time for this project than I did when I did the Game Jam, so even with a larger team of programmers, we felt the pressure. We made sure that we agreed on a coding standard between us as soon as possible to prevent confusion down the line since we all paid attention to writing clean code. 
