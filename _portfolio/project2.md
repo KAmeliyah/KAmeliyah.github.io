@@ -34,7 +34,7 @@ Our primary issue was with the version control. We were using Git and would keep
 
 ### Team Members
 - Scott Lewis
-- Kyle 
+- Kyle Russouw
 - Chris
 - Michael
 

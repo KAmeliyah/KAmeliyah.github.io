@@ -5,7 +5,7 @@ image: assets/img/portfolio/breakout-gp.gif
 alt: Ball bounces off paddle and hits block
 
 caption:
-  title: Birck Breaker
+  title: Brick Breaker
   subtitle: Solo Project
   thumbnail: assets/img/portfolio/breakout-gp.gif
 ---
