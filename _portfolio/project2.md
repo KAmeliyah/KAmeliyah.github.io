@@ -12,6 +12,8 @@ caption:
 ### Accolades
 **Most Visually Appealing**
 
+<a href = "https://github.com/KAmeliyah/Ferocious-Fruits"> See the code here.</a>
+
 ### Introduction
 For this Code Jam, our prompt was given by Bournemouth University's Sustainability team to develop a prototype of an "interactive experience" that the team could be used for people to play with to explore making the buildings on campus net zero on energy consumption. Since our team was made up of a majority of Creative Technology students, we felt it would be best to make a game. We came up with the idea of a take on a Real-Time-Strategy game where the player takes control of the uni's budget for a year.
 

@@ -13,6 +13,9 @@ caption:
 **3rd Overall**  
 **Best 2D Art**
 
+<a href = "https://github.com/KAmeliyah/Blue-Shells"> See the code here.</a>
+
+
 ### Introduction
 This was my first ever game jam. I had heard of them before and seen what others had done during theirs so I was excited to join one for myself. It was also the first time I'd worked in a multi-disciplined team of artists, designers and programmers which was fun, new experience.
 

@@ -10,6 +10,8 @@ caption:
   thumbnail: assets/img/portfolio/breakout-gp.gif
 ---
 
+<a href = "https://github.com/KAmeliyah/Breakout"> See the code here.</a>
+
 ### Introduction
 After making my first game in SDL for an assignment for university, I wanted to explore more with the library and how I could utilise it.
 I decided to make a Breakout clone and to put my twist on it, I decided to make my own custom levels using text files. I also included 2D physics that I coded myself.
