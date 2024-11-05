@@ -35,14 +35,14 @@ We had less time for this project than I did when I did the Game Jam, so even wi
 Our primary issue was with the version control. We were using Git and would keep running into merge issues when multiple developers would make changes to the main scene. As a result of this, we all learned how to resolve merge issues as they came up and learned to communicate clearly and frequently to prevent conflicts from occuring in the first place.
 
 ### Team Members
-- Scott Lewis
-- Kyle Russouw
-- Christopher Hosken
-- Michael Corpuz
+Scott Lewis
+Kyle Russouw
+Christopher Hosken
+Michael Corpuz
 
 {:.list-inline}
-- Date: February 2024
-- Team Size: 5
-- Unity & C#
-- Time Span: 4 Days
+Date: February 2024
+Team Size: 5
+Unity & C#
+Time Span: 4 Days
 
