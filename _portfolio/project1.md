@@ -1,8 +1,8 @@
 ---
 title: Derserted Duo
 subtitle: Gameplay Programmer
-image: assets/DesertedDuo.mp4
-alt: Character runs from left to right towards a door 
+video: assets/DesertedDuo.mp4
+alt: 
 
 caption:
   title: Deserted Duo
