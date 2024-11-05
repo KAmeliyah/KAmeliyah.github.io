@@ -1,13 +1,13 @@
 ---
 title: Derserted Duo
 subtitle: Gameplay Programmer
-image: assets/img/portfolio/locked-loaded-gp.gif
+image: assets/DesertedDuo.mp4
 alt: Character runs from left to right towards a door 
 
 caption:
   title: Deserted Duo
   subtitle: BFX Game Jam 2024 - Perculiar Produce
-  thumbnail: assets/img/portfolio/locked-loaded-gp.gif
+  thumbnail: assets/DesertedDuo.mp4
 ---
 ### Accolades
 **1st Place**  
