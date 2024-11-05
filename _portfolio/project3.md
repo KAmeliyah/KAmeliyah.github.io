@@ -1,62 +1,48 @@
 ---
-title: Locked & Loaded
-subtitle: Gameplay Programmer
-image: assets/img/portfolio/locked-loaded-gp.gif
-alt: Character runs from left to right towards a door 
+title: University Resource Manager
+subtitle: UI / Gameplay Programmer
+image: assets/img/portfolio/uni-game-intro.gif
+alt: Unity Recreation of Bournemouth University
 
 caption:
-  title: Locked & Loaded
-  subtitle: BU Game Jam 2024 - Blue Shells
-  thumbnail: assets/img/portfolio/locked-loaded-gp.gif
+  title: University Resource Manager
+  subtitle: BU Code Jam 2024 - Ferocious Fruits
+  thumbnail: assets/img/portfolio/uni-game-intro.gif
 ---
 ### Accolades
-**3rd Overall**  
-**Best 2D Art**
+**Most Visually Appealing**
 
-<a href = "https://github.com/KAmeliyah/Blue-Shells"> See the code here.</a>
-
+<a href = "https://github.com/KAmeliyah/Ferocious-Fruits"> See the code here.</a>
 
 ### Introduction
-This was my first ever game jam. I had heard of them before and seen what others had done during theirs so I was excited to join one for myself. It was also the first time I'd worked in a multi-disciplined team of artists, designers and programmers which was fun, new experience.
+For this Code Jam, our prompt was given by Bournemouth University's Sustainability team to develop a prototype of an "interactive experience" that the team could be used for people to play with to explore making the buildings on campus net zero on energy consumption. Since our team was made up of a majority of Creative Technology students, we felt it would be best to make a game. We came up with the idea of a take on a Real-Time-Strategy game where the player takes control of the uni's budget for a year.
 
-Our prompt was "Combination". Our team, Blue Shells, chose to make a puzzle game with RPG elements. The goal was to escape from a dungeon by solving a puzzle and then beating an enemy. I'll highlight my contributions to the project in the following sections.
+My contributions are focused on the non-diegetic in-game shop.
 
-### Character Movement
-As a base starting point, we wanted player controlled movement to immerse the player into the escape storyline. I was responsible for coding the movement and making sure player actions synced up with the animations Oyku drew. I scripted the 2D physics so that the character would interact correctly with the level tiles. To check for ground when the character would jump, I used a layer mask and Physics2D boxcast to check for collisions. I felt it worked really well and I moved forward with the solution.
+### UI Programming
+Utilising Unity's built-in UI objects, I designed and implemented a simple collapsible shop that overlayed onto the game. Each upgrade in the shop had a button that when pressed would take money from the player's budget and would have an impact on their other stats. I wrote scripts that would implement this. The effect was determined by the data I plugged into the Scriptable Objects that I made.
 
-<img src = "assets/img/portfolio/ll-end.gif">
+<img src = "assets/img/portfolio/shop-in-use.gif">
 
-### Combat Mechanics
-A boss before gaining freedom was a story beat we wanted to hit. So, we came up with a rock, paper, scissors style system using cards. The player and enemy can play a card each and whoever wins, deals damage.
+### Scriptable Objects
+Since the shop contains multiple items that have similar components, I decided it would be best to use Unity's Scriptable Objects \[SOs]. Since each building has it's own shop, SOs made it easy for me to swap different upgrades in and out as required. I wrote the ShopItemSO script that detailed the data each upgrade would include. This method also saved on memory consumption as SOs don't need to be instantiated the way that Monobehaviours do.
 
-<img src = "assets/img/portfolio/ll-combat.gif">
-
-For drawing player cards, I wrote a function that randomly select a card to draw. I think if I were to come back to this project, I would write a function to shuffle the deck instead to **compare the performance** of the two randomisation methods.
-
-I wrote an audio manager script to play sound clips whenever there was a successful hit. The manager is a static instance that can be used through the entire game if needed. 
-
-### Scene Management and Transitions
-Locked & Loaded has multiple scenes so I added fade outs to make the transitions smoother. I had never worked on transitions before but I found this <a href = "https://www.youtube.com/watch?v=Ox0JCbVIMCQ"> tutorial</a> helped me do it. 
-
-<img src = "assets/img/portfolio/transition-fade.gif" >
-
-On evaluation, I noticed that the fade in isn't as smooth as the fade out. Next time I implement scene transitions, I want to make use of Unity's animator. That would save me time and make it easier for me to configure the transition to how I wanted it.
+<img src = "assets/img/portfolio/so-shop.gif">
 
 ### What I learned
-The biggest lesson I learned was about time management. We had to cut out a lot of what we originally planned to include because there was no time for us to make it fit. Identifying essential features and implementing them quickly became the priority as time dwindled and I think we managed those concessions well. 
+We had less time for this project than I did when I did the Game Jam, so even with a larger team of programmers, we felt the pressure. We made sure that we agreed on a coding standard between us as soon as possible to prevent confusion down the line since we all paid attention to writing clean code. 
 
-Despite the pressures of the jam, I really enjoyed developing alongside the rest of the team and I am really grateful that I got the opportunity to work with such talented people.
+Our primary issue was with the version control. We were using Git and would keep running into merge issues when multiple developers would make changes to the main scene. As a result of this, we all learned how to resolve merge issues as they came up and learned to communicate clearly and frequently to prevent conflicts from occuring in the first place.
 
-### Other Team Members
-- <a href = "https://gisellepe.com/"> Giselle Pe</a> - Static assets & tiles, Environmental design, UI design
-- Oyku Erdenlig - Character Design & Sprites
-- Stephany Hérnandez - Gameplay programming \(Puzzle)
-
+### Team Members
+- Scott Lewis
+- Kyle Russouw
+- Christopher Hosken
+- Michael Corpuz
 
 {:.list-inline}
-
-- Date: January 2024
-- Team Size: 4
+- Date: February 2024
+- Team Size: 5
 - Unity & C#
-- Time Span: 5 Days
+- Time Span: 4 Days
 

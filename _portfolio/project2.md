@@ -1,48 +1,39 @@
 ---
-title: University Resource Manager
-subtitle: UI / Gameplay Programmer
-image: assets/img/portfolio/uni-game-intro.gif
-alt: Unity Recreation of Bournemouth University
+title: Brick Breaker
+subtitle: Gameplay Programmer
+image: assets/img/portfolio/breakout-gp.gif
+alt: Ball bounces off paddle and hits block
 
 caption:
-  title: University Resource Manager
-  subtitle: BU Code Jam 2024 - Ferocious Fruits
-  thumbnail: assets/img/portfolio/uni-game-intro.gif
+  title: Brick Breaker
+  subtitle: Solo Project
+  thumbnail: assets/img/portfolio/breakout-gp.gif
 ---
-### Accolades
-**Most Visually Appealing**
 
-<a href = "https://github.com/KAmeliyah/Ferocious-Fruits"> See the code here.</a>
+<a href = "https://github.com/KAmeliyah/Breakout"> See the code here.</a>
 
 ### Introduction
-For this Code Jam, our prompt was given by Bournemouth University's Sustainability team to develop a prototype of an "interactive experience" that the team could be used for people to play with to explore making the buildings on campus net zero on energy consumption. Since our team was made up of a majority of Creative Technology students, we felt it would be best to make a game. We came up with the idea of a take on a Real-Time-Strategy game where the player takes control of the uni's budget for a year.
+After making my first game in SDL for an assignment for university, I wanted to explore more with the library and how I could utilise it.
+I decided to make a Breakout clone and to put my twist on it, I decided to make my own custom levels using text files. I also included 2D physics that I coded myself.
 
-My contributions are focused on the non-diegetic in-game shop.
+### Text File Parsing
+To customise each level, I set up a C++ vector that maps each brick type to a number. In the text files, I can create levels as I want them using the selection of corresponding numbers.
 
-### UI Programming
-Utilising Unity's built-in UI objects, I designed and implemented a simple collapsible shop that overlayed onto the game. Each upgrade in the shop had a button that when pressed would take money from the player's budget and would have an impact on their other stats. I wrote scripts that would implement this. The effect was determined by the data I plugged into the Scriptable Objects that I made.
+To parse the text file into a playable level, I've written a function that reads the text file and loads the block data into a vector. The code I based this on can be found <a href = "https://stackoverflow.com/questions/46719183/c-using-ifstream-to-read-file"> here.</a> Once all the data is loaded, the level can be initialised with the blocks, ready to be played. Multiple levels can be loaded in, to be played sequentially.
 
-<img src = "assets/img/portfolio/shop-in-use.gif">
+<img src = "assets/img/portfolio/break-level-change.gif" >
 
-### Scriptable Objects
-Since the shop contains multiple items that have similar components, I decided it would be best to use Unity's Scriptable Objects \[SOs]. Since each building has it's own shop, SOs made it easy for me to swap different upgrades in and out as required. I wrote the ShopItemSO script that detailed the data each upgrade would include. This method also saved on memory consumption as SOs don't need to be instantiated the way that Monobehaviours do.
+### 2D Physics
+An important part of brick breaker games is how the ball's collisions can be used to strategise towards breaking blocks as the player wants. So I was committed to writing code to replicate accurate physics for the ball as I learned in my Mathematics for Computer Graphics class at university. I wrote a Vec2D class so that I had 2D vectors to work with for both position and movement. Using the position vector and the x-coordinate of the point of collision, I wrote a function to calculate the movement vector of the ball after it collides with a brick or the paddle. I based it on specular reflection to achieve natural ball movement.
 
-<img src = "assets/img/portfolio/so-shop.gif">
+### What I Learned
+As I went through this project, I realised I would need to refactor how I applied what I knew about physics. While my prior knowledge was extremely helpful, it also led to some incorrect conclusions earlier in the project. After some<a href = "https://www.reddit.com/r/gamedev/comments/5qcgu9/comment/dcy5r5q/"> research</a> and continued testing of new solutions, I was able to find a method of calculating collisions that worked.
 
-### What I learned
-We had less time for this project than I did when I did the Game Jam, so even with a larger team of programmers, we felt the pressure. We made sure that we agreed on a coding standard between us as soon as possible to prevent confusion down the line since we all paid attention to writing clean code. 
-
-Our primary issue was with the version control. We were using Git and would keep running into merge issues when multiple developers would make changes to the main scene. As a result of this, we all learned how to resolve merge issues as they came up and learned to communicate clearly and frequently to prevent conflicts from occuring in the first place.
-
-### Team Members
-- Scott Lewis
-- Kyle Russouw
-- Chris
-- Michael
+Another lesson I learned is that the profiler and other diagnostic tools in Visual Studio help hugely. With them, I was able to properly understand how my game was performing in terms of CPU and memory usage. This was especially helpful at the beginning of the project, where many Ball objects were being created, causing a severe performance drop. 
 
 {:.list-inline}
-- Date: February 2024
-- Team Size: 5
-- Unity & C#
-- Time Span: 4 Days
+- Date: June 2024
+- Team Size: 1
+- SDL2 & C++
+- Time Span: 1 Week
 
