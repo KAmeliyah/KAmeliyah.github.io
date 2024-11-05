@@ -48,15 +48,15 @@ The biggest lesson I learned was about time management. We had to cut out a lot 
 Despite the pressures of the jam, I really enjoyed developing alongside the rest of the team and I am really grateful that I got the opportunity to work with such talented people.
 
 ### Other Team Members
-<a href = "https://gisellepe.com/"> Giselle Pe</a> - Static assets & tiles, Environmental design, UI design
-Oyku Erdenlig - Character Design & Sprites
-Stephany Hérnandez - Gameplay programming \(Puzzle)
+<a href = "https://gisellepe.com/"> Giselle Pe</a> - Static assets & tiles, Environmental design, UI design  
+Oyku Erdenlig - Character Design & Sprites  
+Stephany Hérnandez - Gameplay programming \(Puzzle)  
 
 
 {:.list-inline}
 
-Date: January 2024
-Team Size: 4
-Unity & C#
-Time Span: 5 Days
+- Date: January 2024
+- Team Size: 4
+- Unity & C#
+- Time Span: 5 Days
 

@@ -39,16 +39,16 @@ I found stock music and audio that I layered together for the background music a
 
 
 ### Other Team Members
-Scott Lewis 
-Christopher Hosken 
-Felix Wright 
-Harvey Hamilton 
+Scott Lewis   
+Christopher Hosken   
+Felix Wright  
+Harvey Hamilton   
 
 
 {:.list-inline}
 
-Date: October 2024 
-Team Size: 5 
-Unity & C# 
-Time Span: 48 hours
+- Date: October 2024   
+- Team Size: 5   
+- Unity & C#   
+- Time Span: 48 hours  
 

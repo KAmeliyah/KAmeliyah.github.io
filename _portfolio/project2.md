@@ -32,8 +32,8 @@ As I went through this project, I realised I would need to refactor how I applie
 Another lesson I learned is that the profiler and other diagnostic tools in Visual Studio help hugely. With them, I was able to properly understand how my game was performing in terms of CPU and memory usage. This was especially helpful at the beginning of the project, where many Ball objects were being created, causing a severe performance drop. 
 
 {:.list-inline}
-Date: June 2024
-Team Size: 1
-SDL2 & C++
-Time Span: 1 Week
+- Date: June 2024
+- Team Size: 1
+- SDL2 & C++
+- Time Span: 1 Week
 
