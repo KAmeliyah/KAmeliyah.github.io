@@ -11,7 +11,7 @@ caption:
 ---
 ### Accolades
 **1st Place**  
-**Best Mechanics** 
+**Best Mechanics**   
 **Best 3D Art** 
 
 <a href = "https://github.com/Joles-Doe/Peculiar-Produce"> See the code here.</a>
