@@ -1,11 +1,11 @@
 ---
-title: University Resource Manager
+title: University Manager
 subtitle: UI / Gameplay Programmer
 image: assets/img/portfolio/uni-game-intro.gif
 alt: Unity Recreation of Bournemouth University
 
 caption:
-  title: University Resource Manager
+  title: University Manager
   subtitle: BU Code Jam 2024 - Ferocious Fruits
   thumbnail: assets/img/portfolio/uni-game-intro.gif
 ---
