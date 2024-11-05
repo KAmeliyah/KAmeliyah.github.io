@@ -26,17 +26,19 @@ My role during development was to help implement the connected character movemen
 
 <img src = "assets/img/portfolio/ddmove.gif">
 
+### Movement Blocks
 
 ### Audio
 It was immportant to us that we do as much of the game ourselves as we could. To that end, I recorded and edited all the SFX. The other team members were the voice actors. We recorded multiple variations of efforts, jumps and deaths for each player which I edited. This provided us a wide range of sounds we could use to flesh out and humanise the characters, with tonal and pitch differences for both to differentiate them. 
 
 We used Foley for footsteps in the sand. I edited the footage to create variations where the inconsistency of footsteps made it sound more probable and therefore, more immersive.
 
-I found stock music and audio that I layered together for the background music and ambience. A highlight was the use of gull sounds to push a beach vibe.
-
+I found stock music and audio that I layered together for the background music and ambience. A highlight was the use of gull sounds to push a beach/island vibe.
 
 ### What I learned
+The biggest difference of this jam was the 48 hour time frame I was working to. It really pushed the team and I to nail down a concept as soon as possible. Our biggest strength throughout was how we were able to divide the game mechanics between all the programmers so they could be integrated at the end, causing us to be more efficient and let us take on other roles like audio design, in my case.
 
+While doing the character movement, I learned how to work with ragdoll models and the Unity character controller for the first time. This differs from the rigidbodies that I would naturally use in Unity games for characters. It's always interesting programming with new or different APIs so I feel I gained skills from broadening my experience. 
 
 ### Other Team Members
 Scott Lewis   
